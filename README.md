@@ -15,9 +15,11 @@ My dotfiles, used on Ubuntu, Arch and macOS systems.
 ## Installation
 1. `git clone git@github.com:codepuncher/dotfiles.git ~/.dotfiles`
 3. `~/.dotfiles/setup.sh`
-3. Choose `y` to symlink the dotfiles
-4. The script will finish and run `command zsh` for you, loading the new dotfiles
-5. Finish the installation by running `vim` (aliased to `nvim`) and then `:PlugInstall` to install the `neovim` plugins
+4. On Ubuntu
+5. '`~/dotfiles/setup.sh`
+6. Choose `y` to symlink the dotfiles
+7. The script will finish and run `command zsh` for you, loading the new dotfiles
+8. Finish the installation by running `vim` (aliased to `nvim`) and then `:PlugInstall` to install the `neovim` plugins
 
 ## Features
 1. Many [aliases](https://github.com/codepuncher/dotfiles/blob/master/bash/bash_aliases)
